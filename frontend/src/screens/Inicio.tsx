@@ -283,7 +283,6 @@ export default function Inicio({ onGoLogin }: InicioProps) {
           </View>
         </ImageBackground>
 
-        {/* STATS */}
         <View style={styles.statsBand}>
           <View style={[styles.statsBar, isMobile && styles.column]}>
             {stats.map((item, index) => (
@@ -301,7 +300,6 @@ export default function Inicio({ onGoLogin }: InicioProps) {
           </View>
         </View>
 
-        {/* CONFÍAN EN NOSOTROS */}
         <View style={styles.trustedStrip}>
           <View style={styles.inner}>
             <Text style={styles.trustedLabel}>Empresas que confían en Logitrak</Text>
@@ -316,7 +314,6 @@ export default function Inicio({ onGoLogin }: InicioProps) {
           </View>
         </View>
 
-        {/* FEATURES */}
         <View style={styles.features} onLayout={medirSeccion('services')}>
           <View style={styles.inner}>
             <View style={styles.sectionHead}>
@@ -347,7 +344,6 @@ export default function Inicio({ onGoLogin }: InicioProps) {
           </View>
         </View>
 
-        {/* SOLUCIONES */}
         <View style={styles.solutions} onLayout={medirSeccion('solutions')}>
           <View style={styles.inner}>
             <View style={styles.sectionHead}>
@@ -376,7 +372,6 @@ export default function Inicio({ onGoLogin }: InicioProps) {
           </View>
         </View>
 
-        {/* PROCESO */}
         <View style={styles.how} onLayout={medirSeccion('how')}>
           <View style={styles.inner}>
             <Text style={styles.sectionKickerLight}>El Proceso</Text>
@@ -396,7 +391,6 @@ export default function Inicio({ onGoLogin }: InicioProps) {
           </View>
         </View>
 
-        {/* COBERTURA */}
         <View style={styles.coverage} onLayout={medirSeccion('coverage')}>
           <View style={[styles.inner, styles.coverageInner, isMobile && styles.column]}>
             <View style={styles.coverageLeft}>
@@ -429,7 +423,6 @@ export default function Inicio({ onGoLogin }: InicioProps) {
           </View>
         </View>
 
-        {/* SEGUIMIENTO EN VIVO */}
         <View style={styles.tracking}>
           <View style={[styles.inner, styles.trackingInner, isMobile && styles.column]}>
             <View style={styles.trackingTextBlock}>
@@ -485,7 +478,6 @@ export default function Inicio({ onGoLogin }: InicioProps) {
           </View>
         </View>
 
-        {/* TESTIMONIOS */}
         <View style={styles.testimonials}>
           <View style={styles.inner}>
             <View style={styles.sectionHead}>
@@ -516,7 +508,6 @@ export default function Inicio({ onGoLogin }: InicioProps) {
           </View>
         </View>
 
-        {/* PLANES */}
         <View style={styles.plans} onLayout={medirSeccion('plans')}>
           <View style={styles.inner}>
             <View style={styles.plansHead}>
@@ -575,7 +566,6 @@ export default function Inicio({ onGoLogin }: InicioProps) {
           </View>
         </View>
 
-        {/* APP */}
         <View style={styles.appSection}>
           <View style={[styles.inner, !isMobile && styles.appRow]}>
             <View style={styles.appTextBlock}>
@@ -615,7 +605,6 @@ export default function Inicio({ onGoLogin }: InicioProps) {
           </View>
         </View>
 
-        {/* FAQ */}
         <View style={styles.faq}>
           <View style={styles.inner}>
             <View style={styles.sectionHead}>
@@ -648,7 +637,6 @@ export default function Inicio({ onGoLogin }: InicioProps) {
           </View>
         </View>
 
-        {/* CTA FINAL */}
         <View style={styles.ctaBand}>
           <Text style={styles.ctaTitle}>¿Listo para mover tu logística?</Text>
           <Text style={styles.ctaText}>
@@ -659,7 +647,6 @@ export default function Inicio({ onGoLogin }: InicioProps) {
           </TouchableOpacity>
         </View>
 
-        {/* FOOTER */}
         <View style={styles.footerTop}>
           <View style={[styles.footerInner, isMobile && styles.column]}>
             <View style={styles.footerBrandCol}>

@@ -199,6 +199,10 @@ export default function HomeScreen({ navigation }: any) {
           <TouchableOpacity style={styles.ctaSmall} onPress={() => navigation.navigate('SolicitudEnvio')}>
             <Text style={styles.ctaSmallText}>+  Nuevo envío</Text>
           </TouchableOpacity>
+
+          <TouchableOpacity style={styles.ctaSmall} onPress={() => navigation.navigate('MenuUsuarioScreen')}>
+            <Text style={styles.ctaSmallText}>PRUEBA</Text>
+          </TouchableOpacity>
         </View>
       </View>
 

@@ -9,6 +9,7 @@ import SeguimientoScreen from '../screens/SeguimientoScreen';
 import PerfilScreen from '../screens/PerfilScreen';
 import HistorialScreen from '../screens/HistorialScreen';
 import ChoferScreen from '../screens/ChoferScreen';
+import MenuUsuarioScreen from '../screens/MenuUsuarioScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -71,6 +72,14 @@ export default function AppNavigator() {
                     options={{
                         title: 'Consola del Chofer',
                         headerLeft: () => null,
+                    }}
+                />
+
+                <Stack.Screen
+                    name="MenuUsuarioScreen"
+                    component={MenuUsuarioScreen}
+                    options={{
+                        headerShown: false,
                     }}
                 />
             </Stack.Navigator>
